@@ -1,0 +1,36 @@
+PODS:
+  - BRPickerView (2.2.1)
+  - FLAnimatedImage (1.0.12)
+  - GPUImage (0.1.7)
+  - Masonry (1.1.0)
+  - ReactiveObjC (2.1.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SDWebImage/GIF (4.4.2):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - ZLPhotoBrowser (2.7.4):
+    - GPUImage
+    - SDWebImage
+
+DEPENDENCIES:
+  - BRPickerView
+  - Masonry
+  - ReactiveObjC (~> 2.1.0)
+  - SDWebImage (~> 4.0)
+  - SDWebImage/GIF
+  - ZLPhotoBrowser
+
+SPEC CHECKSUMS:
+  BRPickerView: 0590a8c5de9bd98c6b4e4f117a3dff6de287d5b2
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  ZLPhotoBrowser: b666fe8f68edc63dc5c4edccca071885b87553f5
+
+PODFILE CHECKSUM: e24ed5fec2cc224f8d63c3da95fcd8104e93142a
+
+COCOAPODS: 1.4.0

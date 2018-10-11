@@ -1,5 +1,5 @@
 # QGMoveCellProject
-cell移动，长按cell
+uitableview cell 长按 移动
 
 ![生成文件](https://github.com/xiongqg/QGMoveCellProject/blob/master/QGMoveCellProject/showGif.gif)
 

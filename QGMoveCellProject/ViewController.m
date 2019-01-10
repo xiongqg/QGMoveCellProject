@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 #import "Header.h"
-
-
 #import "AddTableViewCell.h"
 #import "MaterialTableViewCell.h"
 #import "StepTableViewCell.h"
@@ -58,7 +56,6 @@ typedef enum{
 @property(nonatomic,copy)NSArray *quantityArr;
 @property(nonatomic,copy)NSArray *difficultyArr;
 
-
 //长按cell Move
 @property (nonatomic, assign) CGFloat scrollSpeed;
 @property (nonatomic, strong) NSMutableArray *dataArray;
@@ -71,7 +68,6 @@ typedef enum{
 @property (nonatomic, assign) BOOL isGroup;
 
 @property(nonatomic,copy)NSDictionary *dataDic;
-
 
 @end
 
@@ -113,7 +109,6 @@ typedef enum{
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    
 }
 
 -(void)initData
@@ -138,7 +133,6 @@ typedef enum{
     NSData *imageData = UIImagePNGRepresentation(image);
     NSMutableDictionary *stepDic=[[NSMutableDictionary alloc]initWithObjectsAndKeys:imageData,@"cook_step_pic",@"",@"step_detail",@"",@"step_time",@"",@"step_material",nil];
     [self.stepArr addObject:stepDic];
-    //    NSMutableDictionary *imgDic=[[NSMutableDictionary alloc]initWithObjectsAndKeys:imageData,@"img",@"",@"detail",nil];
     self.cover=[UIImage imageNamed:@"published_headImg"];
     
     [self.imgArr addObject:imageData];

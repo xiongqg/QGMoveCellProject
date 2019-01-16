@@ -13,6 +13,7 @@
 #import <ReactiveObjC/ReactiveObjC.h>
 #import <BRPickerView/BRPickerView.h>
 #import <Masonry/Masonry.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
 
 #define BXScreenW [UIScreen mainScreen].bounds.size.width
 #define BXScreenH [UIScreen mainScreen].bounds.size.height

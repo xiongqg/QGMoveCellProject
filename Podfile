@@ -7,6 +7,7 @@ target 'QGMoveCellProject' do
     pod 'SDWebImage/GIF'
     pod 'ZLPhotoBrowser'
     pod 'BRPickerView'
+    pod 'IQKeyboardManager'
 end
 
 

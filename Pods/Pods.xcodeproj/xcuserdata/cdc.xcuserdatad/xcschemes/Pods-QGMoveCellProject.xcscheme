@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "79BAB9B07CC4E364AC45FB2C6701FFC9"
+               BlueprintIdentifier = "5FEF9E00B1889A75688992F83AF2DC47"
                BuildableName = "Pods_QGMoveCellProject.framework"
                BlueprintName = "Pods-QGMoveCellProject"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "79BAB9B07CC4E364AC45FB2C6701FFC9"
+            BlueprintIdentifier = "5FEF9E00B1889A75688992F83AF2DC47"
             BuildableName = "Pods_QGMoveCellProject.framework"
             BlueprintName = "Pods-QGMoveCellProject"
             ReferencedContainer = "container:Pods.xcodeproj">
